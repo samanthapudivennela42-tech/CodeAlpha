@@ -6,12 +6,14 @@ Name: Samanthapudi Venkata Siva Naga Vennela
 
 Internship Track
 
-Python Programming 
+- Python Programming 
 
 Projects 
 
 01.Hangman Game
+
 02.Stock Portfolio Tracker
+
 03.Basic Chatbot
 
 Technologies Used
