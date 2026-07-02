@@ -26,6 +26,7 @@ Technologies Used
 - Functions
 - Input/Output Operations
 
-About 
+About
+
 These projects were completed as part of the CodeAlpha Python Programming Internship to strengthen Python development skills and gain practical experience in building console-based applications.
   
