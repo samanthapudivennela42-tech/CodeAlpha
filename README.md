@@ -10,7 +10,7 @@ Internship Track
 
 Projects 
 
-01.Hangman Game
+01.Hangman Game✅
 
 02.Stock Portfolio Tracker
 
