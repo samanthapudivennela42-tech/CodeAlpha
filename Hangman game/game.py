@@ -1,0 +1,52 @@
+import random
+
+# List of words
+words = [
+    "python",
+    "computer",
+    "keyboard",
+    "coding",
+    "monitor"
+]
+
+# Choose a random word
+secret_word = random.choice(words)
+
+# Create display
+display = []
+
+for letter in secret_word:
+    display.append("_")
+
+# Number of lives
+lives = 5
+
+print("Welcome to Hangman!")
+
+# Game loop
+while lives > 0 and "_" in display:
+
+    print("\nWord:", " ".join(display))
+    print("Lives:", lives)
+
+    guess = input("Guess a letter: ").lower()
+
+    if guess in secret_word:
+
+        for index in range(len(secret_word)):
+            if secret_word[index] == guess:
+                display[index] = guess
+
+        print("Correct!")
+
+    else:
+        lives -= 0
+        print("Wrong Guess!")
+
+# Final Result
+if "_" not in display:
+    print("\nCongratulations!")
+    print("You guessed the word:", secret_word)
+else:
+    print("\nGame Over!")
+    print("The word was:", secret_word)
