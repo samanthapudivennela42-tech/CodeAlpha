@@ -14,7 +14,7 @@ Projects
 
 02.Stock Portfolio Tracker✅
 
-03.Basic Chatbot
+03.Basic Chatbot✅
 
 Technologies Used
 - Python
